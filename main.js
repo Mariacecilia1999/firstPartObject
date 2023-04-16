@@ -10,3 +10,49 @@
 // 4,radia@yahoo.com,Radia Perlman,1234509876
 // 5,Sheryl@facebook.com,Sheryl Sandberg,5432167890
 
+
+const userOne  = {
+   id : 1 ,
+   name: 'Ada Lovelace',
+   email: 'ada@gmail.com',
+   phone: 1234567890
+}
+
+console.log(userOne.name)
+
+const userTwo  = {
+   id : 2 ,
+   name: 'Grace Hopper',
+   email: 'grace@hotmail.com',
+   phone: 0987654321
+}
+
+console.log(userTwo.id)
+
+const userThree = {
+   id : 3 ,
+   name: 'Hedy Lamarr' ,
+   email: 'hedy@gmail.com',
+   phone: 6789054321
+}
+
+console.log(userThree.email)
+
+const userFour = {
+   id : 4 ,
+   name: 'Radia Perlam',
+   email: 'radia@yahoo.com',
+   phone: 1234509876
+}
+
+console.log(userFour.id, userFour.name)
+
+const userFive = {
+   id: 5 ,
+   name: 'Sheryl Sandberg',
+   email: 'Sheryl@facebook.com',
+   phone: 5432167890
+}
+
+console.log(userFive.phone)
+
